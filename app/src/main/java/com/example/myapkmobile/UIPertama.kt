@@ -49,6 +49,13 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(25.dp))
 
+        // Card pertama
+        MahasiswaCard(
+            backgroundColor = Color.LightGray,
+            nama = stringResource(R.string.nama1),
+            alamat = stringResource(R.string.alamat1),
+            kontak = stringResource(R.string.kontak1)
+        )
 
         Box(
             modifier = Modifier.fillMaxSize()
@@ -110,7 +117,6 @@ fun MahasiswaCard(
                     fontSize = 16.sp,
                     color = Color.Black
                 )
-
             }
         }
     }
