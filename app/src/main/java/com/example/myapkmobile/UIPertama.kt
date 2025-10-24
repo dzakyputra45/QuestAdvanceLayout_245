@@ -65,12 +65,22 @@ fun ActivitasPertama(modifier: Modifier) {
                 Spacer(modifier = Modifier.width(width = 30.dp))
 
                 Column() {
-                    Text(stringResource(R.string.Nama),
+                    Text(
+                        stringResource(R.string.Nama),
                         fontSize = 25.sp,
                         fontFamily = FontFamily.SansSerif,
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
+
+                    Text(
+                        stringResource(R.string.Alamat),
+                        fontSize = 20.sp,
+                        color = Color.Black,
+                        fontWeight = FontWeight.Black,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                }
             }
         }
     }
