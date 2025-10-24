@@ -91,6 +91,17 @@ fun MahasiswaCard(
             )
 
             Spacer(modifier = Modifier.width(20.dp))
+
+            Column {
+                Text(
+                    text = nama,
+                    fontSize = 20.sp,
+                    fontFamily = FontFamily.Serif,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.White
+                )
+
+            }
         }
     }
 }
