@@ -70,5 +70,13 @@ fun MahasiswaCard(
     alamat: String,
     kontak: String
 ) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 15.dp, vertical = 8.dp),
+        colors = CardDefaults.cardColors(containerColor = backgroundColor)
+    )
+    {
 
+    }
 }
