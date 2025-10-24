@@ -77,6 +77,18 @@ fun MahasiswaCard(
         colors = CardDefaults.cardColors(containerColor = backgroundColor)
     )
     {
-
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier.padding(10.dp)
+        ) {
+            val gambar = painterResource(id = R.drawable.umy)
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(90.dp)
+                    .padding(5.dp)
+            )
+        }
     }
 }
