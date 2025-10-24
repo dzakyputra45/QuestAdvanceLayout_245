@@ -34,4 +34,9 @@ fun ActivitasPertama(modifier: Modifier) {
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Text(stringResource(R.string.Prodi),
+            fontSize = 30.sp,
+            fontWeight = FontWeight.SemiBold)
+        }
+
 
