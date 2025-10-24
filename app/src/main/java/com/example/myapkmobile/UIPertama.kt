@@ -28,76 +28,47 @@ import com.example.myapkmobile.R
 
 
 @Composable
-fun ActivitasPertama(modifier: Modifier) {
+fun ActivitasPertama(modifier: Modifier = Modifier) {
     Column(
-        modifier = Modifier.padding(top = 100.dp)
-            .fillMaxSize(),
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(top = 80.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+
         Text(
-            stringResource(R.string.Prodi),
-            fontSize = 30.sp,
-            fontWeight = FontWeight.SemiBold
+            text = stringResource(id = R.string.Prodi),
+            fontSize = 28.sp,
+            fontWeight = FontWeight.Bold
         )
         Text(
-            stringResource(R.string.Univ),
-            fontSize = 22.sp
+            text = stringResource(id = R.string.Univ),
+            fontSize = 20.sp,
+            fontFamily = FontFamily.SansSerif
         )
 
-        Spacer(modifier = modifier.height(height = 25.dp))
-
-        Card(
-            modifier = modifier
-                .fillMaxWidth(fraction = 1f)
-                .padding(all = 13.dp),
-            colors = CardDefaults.cardColors(
-                containerColor = Color.DarkGray
-            )
-        ) {
-            Row() {
-                val gambar = painterResource(id = R.drawable.umy)
-                Image(
-                    painter = gambar,
-                    contentDescription = null,
-                    modifier = Modifier.size(size = 110.dp).padding(all = 5.dp)
-                )
-
-                Spacer(modifier = Modifier.width(width = 30.dp))
-
-                Column() {
-                    Text(
-                        stringResource(R.string.Nama),
-                        fontSize = 27.sp,
-                        fontFamily = FontFamily.SansSerif,
-                        color = Color.White,
-                        modifier = Modifier.padding(top = 15.dp)
-                    )
-
-                    Text(
-                        stringResource(R.string.Alamat),
-                        fontSize = 20.sp,
-                        color = Color.Black,
-                        fontFamily = FontFamily.Monospace,
-                        fontWeight = FontWeight.Black,
-                        modifier = Modifier.padding(top = 10.dp)
-                    )
-                }
-            }
-        }
+        Spacer(modifier = Modifier.height(25.dp))
 
 
         Box(
-            modifier = Modifier
-                .fillMaxSize()
+            modifier = Modifier.fillMaxSize()
         ) {
             Text(
                 text = stringResource(id = R.string.Copy),
                 modifier = Modifier
                     .align(Alignment.BottomCenter)
-                    .padding(bottom = 50.dp)
+                    .padding(bottom = 45.dp)
             )
         }
     }
 }
 
+@Composable
+fun MahasiswaCard(
+    backgroundColor: Color,
+    nama: String,
+    alamat: String,
+    kontak: String
+) {
 
+}
