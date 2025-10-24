@@ -105,7 +105,11 @@ fun MahasiswaCard(
                     fontSize = 16.sp,
                     color = Color.Black
                 )
-
+                Text(
+                    text = kontak,
+                    fontSize = 16.sp,
+                    color = Color.Black
+                )
 
             }
         }
