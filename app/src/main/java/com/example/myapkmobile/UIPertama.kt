@@ -34,18 +34,28 @@ fun ActivitasPertama(modifier: Modifier) {
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(stringResource(R.string.Prodi),
+        Text(
+            stringResource(R.string.Prodi),
             fontSize = 30.sp,
-            fontWeight = FontWeight.SemiBold)
-        Text(stringResource(R.string.Univ),
-            fontSize = 22.sp)
+            fontWeight = FontWeight.SemiBold
+        )
+        Text(
+            stringResource(R.string.Univ),
+            fontSize = 22.sp
+        )
 
         Spacer(modifier = modifier.height(height = 25.dp))
 
-        }
+        Card(
+            modifier = modifier
+                .fillMaxWidth(fraction = 1f)
+                .padding(all = 13.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.Magenta
+            )
+        ) {
 
-
-
+    }
 }
 
 
