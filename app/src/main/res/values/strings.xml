@@ -1,8 +1,17 @@
 <resources>
-<string name="app_name">My UIPertama</string>
-<string name="Prodi"> Teknologi Informasi </string>
-<string name="Univ"> Universitas Muhammadiyah Yogyakarta </string>
-<string name="Nama"> Dzaky Putra Pratama </string>
-<string name="Alamat"> Bantul, Yogyakarta </string>
-<string name="Copy"> Copyright, 2025 </string>
+    <string name="app_name">My UIPertama</string>
+
+    <string name="Prodi">Teknologi Informasi</string>
+    <string name="Univ">Universitas Muhammadiyah Yogyakarta</string>
+
+    <string name="nama1">Dzaky Putra Pratama</string>
+    <string name="alamat1">Bantul,  Yogyakarta</string>
+
+    <string name="nama2">Valentino Rossi</string>
+    <string name="alamat2">Urbino, Italia</string>
+
+    <string name="nama3">Lionel Messi</string>
+    <string name="alamat3">Rosario, Argentina</string>
+
+    <string name="Copy"> Copyright, 2025 </string>
 </resources>
