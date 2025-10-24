@@ -6,12 +6,15 @@
 
     <string name="nama1">Dzaky Putra Pratama</string>
     <string name="alamat1">Bantul,  Yogyakarta</string>
+    <string name="kontak1">08123456789</string>
 
     <string name="nama2">Valentino Rossi</string>
     <string name="alamat2">Urbino, Italia</string>
+    <string name="kontak2">08123456789</string>
 
     <string name="nama3">Lionel Messi</string>
     <string name="alamat3">Rosario, Argentina</string>
+    <string name="kontak3">08123456789</string>
 
     <string name="Copy"> Copyright, 2025 </string>
 </resources>
