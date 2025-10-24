@@ -65,7 +65,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
         )
 
         MahasiswaCard(
-            backgroundColor = Color.LightGray,
+            backgroundColor = Color.Black,
             nama = stringResource(R.string.nama3),
             alamat = stringResource(R.string.alamat3),
             kontak = stringResource(R.string.kontak3)
