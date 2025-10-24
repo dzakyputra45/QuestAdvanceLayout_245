@@ -100,6 +100,12 @@ fun MahasiswaCard(
                     fontWeight = FontWeight.Bold,
                     color = Color.White
                 )
+                Text(
+                    text = alamat,
+                    fontSize = 16.sp,
+                    color = Color.Black
+                )
+
 
             }
         }
