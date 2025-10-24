@@ -64,6 +64,13 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             kontak = stringResource(R.string.kontak2)
         )
 
+        MahasiswaCard(
+            backgroundColor = Color.LightGray,
+            nama = stringResource(R.string.nama3),
+            alamat = stringResource(R.string.alamat3),
+            kontak = stringResource(R.string.kontak3)
+        )
+
         Box(
             modifier = Modifier.fillMaxSize()
         ) {
