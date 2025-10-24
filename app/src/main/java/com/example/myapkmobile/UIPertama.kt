@@ -54,7 +54,15 @@ fun ActivitasPertama(modifier: Modifier) {
                 containerColor = Color.Magenta
             )
         ) {
-
+            Row() {
+                val gambar = painterResource(id = R.drawable.umy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(size = 110.dp).padding(all = 5.dp)
+                )
+            }
+        }
     }
 }
 
