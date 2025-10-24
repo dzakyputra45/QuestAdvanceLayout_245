@@ -89,6 +89,8 @@ fun MahasiswaCard(
                     .size(90.dp)
                     .padding(5.dp)
             )
+
+            Spacer(modifier = Modifier.width(20.dp))
         }
     }
 }
